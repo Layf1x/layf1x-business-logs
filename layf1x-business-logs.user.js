@@ -5,6 +5,10 @@
 // @description  Логи
 // @author       Layf1x
 // @match        https://arizonarp.logsparser.info/*
+// @updateURL    https://github.com/Layf1x/layf1x-business-logs/raw/refs/heads/main/layf1x-business-logs.user.js
+// @downloadURL  https://github.com/Layf1x/layf1x-business-logs/raw/refs/heads/main/layf1x-business-logs.user.js
+// @homepageURL  https://github.com/Layf1x/layf1x-business-logs
+// @supportURL   https://github.com/Layf1x/layf1x-business-logs/issues
 // @grant        none
 // ==/UserScript==
 
