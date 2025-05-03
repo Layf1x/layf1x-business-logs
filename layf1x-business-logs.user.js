@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Layf1x-dev business logs
 // @namespace    layf1xdev
-// @version      1.1
+// @version      1.2
 // @description  Логи
 // @author       Layf1x
 // @match        https://arizonarp.logsparser.info/*
