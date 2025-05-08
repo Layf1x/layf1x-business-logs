@@ -6,10 +6,10 @@
 // @author       Layf1x
 // @connect      ip-api.com
 // @match        https://logs.shinoa.tech/*
-// @updateURL    https://github.com/Layf1x/layf1x-shiona/raw/refs/heads/main/layf1x-shiona.user.js
-// @downloadURL  https://github.com/Layf1x/layf1x-shiona/raw/refs/heads/main/layf1x-shiona.user.js
-// @homepageURL  https://github.com/Layf1x/layf1x-shiona
-// @supportURL   https://github.com/Layf1x/layf1x-shiona/issues
+// @updateURL    https://github.com/Layf1x/layf1x-business-logs/raw/refs/heads/main/layf1x-shiona.user.js
+// @downloadURL  https://github.com/Layf1x/layf1x-business-logs/raw/refs/heads/main/layf1x-shiona.user.js
+// @homepageURL  https://github.com/Layf1x/layf1x-business-logs
+// @supportURL   https://github.com/Layf1x/layf1x-business-logs/issues
 // @grant        GM_xmlhttpRequest
 // @run-at       document-end
 // ==/UserScript==
