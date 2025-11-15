@@ -30,7 +30,6 @@
         if (ignoreprefixes.some(p => prefix.includes(p))) return;
         if (diffhours >= 24) {
             item.style.background = "rgba(255, 0, 0, 0.18)";
-            item.style.borderRadius = "6px";
         }
     });
 })();
