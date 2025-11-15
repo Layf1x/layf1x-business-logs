@@ -11,24 +11,24 @@
     const now = Date.now() / 1000;
 
     document.querySelectorAll('.structItem').forEach(item => {
-        const timeEl = item.querySelector('time[data-timestamp]');
-        if (!timeEl) return;
+        const timeel = item.querySelector('time[data-timestamp]');
+        if (!timeel) return;
 
-        const ts = parseInt(timeEl.dataset.timestamp, 10);
-        const diffHours = (now - ts) / 3600;
+        const ts = parseInt(timeel.dataset.timestamp, 10);
+        const diffhours = (now - ts) / 3600;
 
-        const authorLink = item.querySelector('.structItem-parts li:first-child a.username');
-        if (!authorLink) return;
+        const authorlink = item.querySelector('.structItem-parts li:first-child a.username');
+        if (!authorlink) return;
 
-        const hasSpanInside = authorLink.querySelector("span");
-        if (hasSpanInside) return;
+        const hasspaninside = authorlink.querySelector("span");
+        if (hasspaninside) return;
 
-        const prefixEl = item.querySelector('.label');
-        const prefix = prefixEl ? prefixEl.textContent.trim().toLowerCase() : "";
+        const prefixel = item.querySelector('.label');
+        const prefix = prefixel ? prefixel.textContent.trim().toLowerCase() : "";
 
-        const ignorePrefixes = ["отказано", "рассмотрено"];
-        if (ignorePrefixes.some(p => prefix.includes(p))) return;
-        if (diffHours >= 24) {
+        const ignoreprefixes = ["отказано", "рассмотрено"];
+        if (ignoreprefixes.some(p => prefix.includes(p))) return;
+        if (diffhours >= 24) {
             item.style.background = "rgba(255, 0, 0, 0.18)";
             item.style.borderRadius = "6px";
         }
